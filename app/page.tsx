@@ -355,7 +355,7 @@ function TechIcon({
       {/* Icon */}
       <div
         className="
-          relative z-10
+          relative 
           transition-all duration-300
           group-hover:-translate-y-1 group-hover:scale-125
         "
@@ -371,14 +371,14 @@ function TechIcon({
       <span
         className="
           absolute -top-10 left-1/2 -translate-x-1/2
-          text-white text-[10px] font-bold
+          text-white text-[10px] font-bold 
           px-3 py-1.5 rounded-lg
           opacity-0 group-hover:opacity-100
           transition-all duration-200
-          pointer-events-none z-20
+          pointer-events-none z-50
           whitespace-nowrap
           bg-zinc-900 border border-zinc-700
-          shadow-lg
+          shadow-lg 
         "
       >
         {name}
