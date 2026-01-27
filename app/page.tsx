@@ -290,9 +290,9 @@ function ProjectCard({ data,onPlay  }: { data: any, onPlay: (url: string) => voi
 
 function SocialBtn({ href, icon, label }: { href: string, icon: any, label: string }) {
   return (
-    <a href={href} target="_blank" className="w-full py-5 bg-zinc-900 border border-zinc-800 rounded-xl text-center text-zinc-400 text-sm font-bold hover:bg-zinc-800 hover:text-white transition-colors">
+    <a href={href} target="_blank" className="w-full py-5 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center gap-2 text-zinc-400 text-sm font-bold hover:bg-zinc-800 hover:text-white transition-colors">
       {icon}
-      <span className="font-medium text-sm">{label}</span>
+      <span className="font-medium">{label}</span>
     </a>
   );
 }
