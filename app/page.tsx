@@ -116,7 +116,8 @@ export default function Portfolio() {
             <SocialBtn href="https://github.com/sforsanjnarao" icon={<Github size={20} />} label="GitHub" />
             <div className="grid grid-cols-2 gap-2">
                <SocialBtn href="https://linkedin.com/in/sforsanjnarao" icon={<Linkedin size={20} />} label="LinkedIn" />
-               <SocialBtn href="/resume.pdf" icon={<FileText size={20} />} label="CV" />
+               <SocialBtn href="https://raw.githubusercontent.com/sforsanjnarao/spotify-clone-/main/resume.pdf" 
+               icon={<FileText size={20} />} label="CV" />
             </div>
         </div>
       </aside>
