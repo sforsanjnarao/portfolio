@@ -47,17 +47,28 @@ const PROJECTS = [
     video: "/videos/velocity.mp4", 
     stack: ["Node.js", "Next.js", "Websocket","Redis","Docker","AWS"]
   },
+  // {
+  //   id: 2,
+  //   title: "PrivMat",
+  //   subtitle: "Personal Data Vault",
+  //   description: "Privacy dashboard with synthetic identity generation & AES-256 encryption.",
+  //   theme: "blue",
+  //   link: "https://privmat.com",
+  //   repo: "https://github.com/sforsanjnarao/prevmat.git",
+  //   video: "/videos/privmat_video.mp4", 
+  //   stack: ["Next.js", "Postgres","Prisma","Crypto","Javascript"]
+  // },
   {
     id: 2,
-    title: "PrivMat",
-    subtitle: "Personal Data Vault",
-    description: "Privacy dashboard with synthetic identity generation & AES-256 encryption.",
+    title: "Workfloww",
+    subtitle: "Build, Automate, Scale",
+    description: "Your go-to node-based automation platform. Connect your apps, automate your workflows, and scale your productivity with ease.",
     theme: "blue",
-    link: "https://privmat.com",
+    link: "workfloww.bitshitfalse.com",
     repo: "https://github.com/sforsanjnarao/prevmat.git",
-    video: "/videos/privmat_video.mp4", 
-    stack: ["Next.js", "Postgres","Prisma","Crypto","Javascript"]
-  },
+    // video: "/videos/privmat_video.mp4", 
+    stack: ["Next.js", "Postgres","Prisma","Crypto","Javascript,SSE"]
+  }
 ];
 
 export default function Portfolio() {
