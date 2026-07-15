@@ -64,8 +64,8 @@ const PROJECTS = [
     subtitle: "Build, Automate, Scale",
     description: "Your go-to node-based automation platform. Connect your apps, automate your workflows, and scale your productivity with ease.",
     theme: "blue",
-    link: "workfloww.bitshitfalse.com",
-    repo: "https://github.com/sforsanjnarao/prevmat.git",
+    link: "https://workfloww.bitshitfalse.com",
+    repo: "https://github.com/sforsanjnarao/super30/tree/main/super30-assment/0n8n",
     // video: "/videos/privmat_video.mp4", 
     stack: ["Next.js", "Postgres","Prisma","Crypto","Javascript,SSE"]
   }
